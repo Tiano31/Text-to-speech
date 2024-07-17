@@ -1,0 +1,151 @@
+toc:
+  properties:
+    subcollection: text-to-speech
+    service-name: text-to-speech
+    version: 2
+    category: ai
+    audience: service
+    href: /docs/text-to-speech
+    product-page: https://www.ibm.com/cloud/watson-text-to-speech
+    path: text-to-speech
+    label: Text to Speech
+
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+      - getting-started.md
+      - index.md
+      - features.md
+      - data-security.md
+      - speech-install-data.md
+      - topicgroup:
+          label: Release notes
+          topics:
+          - topic: release-notes.md
+            navtitle: Release notes for IBM Cloud
+          - topic: release-notes-data.md
+            navtitle: Release notes for IBM Cloud Pak for Data
+      - link:
+          label: Demo
+          href: https://www.ibm.com/demos/live/tts-demo/self-service/home
+      - topicgroup:
+          label: Additional resources
+          links:
+          - link:
+              label: Pricing
+              href: https://www.ibm.com/cloud/watson-text-to-speech/pricing
+          - link:
+              label: Blogs
+              href: https://developer.ibm.com/blogs/
+          - link:
+              label: Webinars
+              href: https://www.ibm.com/watson/webinars/
+
+  - navgroup:
+      id: howto
+      topics:
+      - topicgroup:
+          label: Using languages and voices
+          topics:
+          - voices.md
+          - voices-migrate.md
+          - voices-use.md
+          - voices-list.md
+      - audio-formats.md
+      - topicgroup:
+          label: Synthesizing speech with the service
+          topics:
+          - http.md
+          - websockets.md
+          - synthesis-params.md
+          - topicgroup:
+            label: Modifying speech synthesis with expressive neural voices
+            topics:
+            - synthesis-expressive.md
+            - expressive-en.md
+            - expressive-es.md
+          - word-timing.md
+      - topicgroup:
+          label: Customizing the service
+          topics:
+          - custom-intro.md
+          - custom-rules.md
+          - custom-models.md
+          - custom-entries.md
+          - custom-using.md
+      - topicgroup:
+          label: Using Tune by Example
+          topics:
+          - tbe-intro.md
+          - tbe-rules.md
+          - tbe-create.md
+          - tbe-use.md
+          - tbe-prompts.md
+          - tbe-speakers.md
+      - topicgroup:
+          label: Using SSML
+          topics:
+          - ssml.md
+          - ssml-elements.md
+      - topicgroup:
+          label: Using phonetic symbols
+          topics:
+          - symbols.md
+          - symbols-nl-nl-new.md
+          - symbols-en-au-new.md
+          - symbols-en-gb.md
+          - symbols-en-us.md
+          - symbols-fr-ca.md
+          - symbols-fr-fr.md
+          - symbols-de-de.md
+          - symbols-it-it.md
+          - symbols-ja-jp.md
+          - symbols-ko-kr-new.md
+          - symbols-pt-br.md
+          - symbols-es-es.md
+          - topicgroup:
+              label: Obsolete phonetic symbols
+              topics:
+              - symbols-nl-nl.md
+              - symbols-en-au.md
+              - symbols-ko-kr.md
+      - topicgroup:
+          label: Security topics
+          topics:
+          - information-security.md
+          - include: ../watson/getting-started-keyservice.md
+          - include: ../watson/service-endpoints.md
+          - include: ../watson/virtual-endpoints.md
+      - topicgroup:
+          label: Service background
+          topics:
+          - science.md
+          - references.md
+
+  - navgroup:
+      id: reference
+      topics:
+      - link:
+          label: API & SDK reference
+          href: https://{DomainName}/apidocs/text-to-speech
+      - ha-dr.md
+      - at-events.md
+      - include: ../watson/getting-started-sdks.md
+      - link:
+          label: Watson GitHub repos
+          href: https://github.com/watson-developer-cloud/
+
+  - navgroup:
+      id: help
+      topics:
+      - known-limitations.md
+      - faq-usage.md
+      - topicgroup:
+          label: Developer community
+          links:
+          - link:
+              label: StackOverflow
+              href: http://stackoverflow.com/questions/tagged/ibm-watson-cognitive+text-to-speech
+      - include: ../overview/accessibility/accessibility_features.md
+        navtitle: Accessibility
